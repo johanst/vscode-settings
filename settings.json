@@ -1,0 +1,134 @@
+{
+    "editor.inlayHints.enabled": "offUnlessPressed",
+    "editor.formatOnSave": true,
+    "git.autofetch": true,
+    "git.untrackedChanges": "separate",
+    "diffEditor.ignoreTrimWhitespace": false,
+    "vim.sneak": true,
+    "vim.useSystemClipboard": true,
+    "vim.visualModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "p"
+            ],
+            "after": [
+                "p",
+                "g",
+                "v",
+                "y",
+            ]
+        }
+    ],
+    "settingsSync.ignoredSettings": [],
+    "vim.handleKeys": {
+        "<C-j>": false,
+        "<C-k>": false,
+        "<C-n>": false,
+        "<C-p>": false,
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false
+    },
+    "editor.fontFamily": "Fira Code",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "monospace",
+    "[git-commit]": {
+        "editor.rulers": [
+            60,
+            72,
+            120
+        ]
+    },
+    "git.confirmSync": false,
+    "remote.SSH.remotePlatform": {
+        "lnxjohast": "linux",
+        "pc57778-2406": "linux"
+    },
+    "security.workspace.trust.untrustedFiles": "open",
+    "workbench.settings.applyToAllProfiles": [
+        "editor.lineNumbers",
+        "zenMode.hideLineNumbers",
+        "zenMode.hideStatusBar",
+        "vim.statusBarColorControl",
+        "vim.leader"
+    ],
+    "editor.lineNumbers": "relative",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false,
+    "vim.statusBarColorControl": true,
+    "vim.leader": "<Space>",
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "<Leader>",
+                "<space>"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                ":"
+            ],
+            "commands": [
+                "workbench.action.showCommands"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "/"
+            ],
+            "commands": [
+                "workbench.action.findInFiles"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "s",
+                "s"
+            ],
+            "commands": [
+                "workbench.action.gotoSymbol"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "s",
+                "S"
+            ],
+            "commands": [
+                "workbench.action.showAllSymbols"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "workbench.action.quickOpen"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindingsNonRecursive": [],
+    "workbench.colorCustomizations": {
+        "statusBar.background": "#005f5f",
+        "statusBar.noFolderBackground": "#005f5f",
+        "statusBar.debuggingBackground": "#005f5f",
+        "statusBar.foreground": "#ffffff",
+        "statusBar.debuggingForeground": "#ffffff"
+    },
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "workbench.colorTheme": "Gruvbox Light Medium",
+    "C_Cpp.intelliSenseEngine": "disabled"
+}
