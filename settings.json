@@ -21,6 +21,7 @@
     ],
     "settingsSync.ignoredSettings": [],
     "vim.handleKeys": {
+        "<C-h>": false,
         "<C-j>": false,
         "<C-k>": false,
         "<C-n>": false,
@@ -113,6 +114,16 @@
             ],
             "commands": [
                 "workbench.action.quickOpen"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "b",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.files.revert"
             ]
         }
     ],
