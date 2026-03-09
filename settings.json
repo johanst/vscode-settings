@@ -21,13 +21,30 @@
     ],
     "settingsSync.ignoredSettings": [],
     "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-b>": true,
+        "<C-c>": false,
+        "<C-d>": true,
+        "<C-e>": false,
+        "<C-f>": true,
+        "<C-g>": false,
         "<C-h>": false,
+        "<C-i>": false,
         "<C-j>": false,
         "<C-k>": false,
+        "<C-l>": false,
+        "<C-m>": false,
         "<C-n>": false,
+        "<C-o>": true,
         "<C-p>": false,
-        "<C-d>": true,
+        "<C-q>": true,
         "<C-s>": false,
+        "<C-t>": false,
+        "<C-u>": true,
+        "<C-v>": false,
+        "<C-w>": false,
+        "<C-x>": false,
+        "<C-y>": false,
         "<C-z>": false
     },
     "editor.fontFamily": "Fira Code",
@@ -41,10 +58,6 @@
         ]
     },
     "git.confirmSync": false,
-    "remote.SSH.remotePlatform": {
-        "lnxjohast": "linux",
-        "pc57778-2406": "linux"
-    },
     "security.workspace.trust.untrustedFiles": "open",
     "workbench.settings.applyToAllProfiles": [
         "editor.lineNumbers",

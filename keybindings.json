@@ -25,8 +25,17 @@
         "command": "workbench.action.toggleSidebarVisibility"
     },
     {
+        "key": "ctrl+alt+g",
+        "command": "workbench.action.toggleAuxiliaryBar",
+        "when": "not terminalFocus"
+    },
+    {
         "key": "ctrl+alt+v",
         "command": "toggleVim"
+    },
+    {
+        "key": "ctrl+w ctrl+w",
+        "command": "workbench.action.focusNextGroup"
     },
     {
         "key": "ctrl+w k",
@@ -75,15 +84,5 @@
         "key": "ctrl+p",
         "command": "workbench.action.quickOpenNavigatePrevious",
         "when": "inQuickOpen"
-    },
-    {
-        "key": "alt+i",
-        "command": "inlineChat.start",
-        "when": "editorFocus && inlineChatHasEditsAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput || editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput"
-    },
-    {
-        "key": "ctrl+i",
-        "command": "-inlineChat.start",
-        "when": "editorFocus && inlineChatHasEditsAgent && inlineChatPossible && !editorReadonly && !editorSimpleInput || editorFocus && inlineChatHasProvider && inlineChatPossible && !editorReadonly && !editorSimpleInput"
     }
 ]
