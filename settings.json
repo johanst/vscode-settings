@@ -49,7 +49,7 @@
     },
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
-    "terminal.integrated.fontFamily": "monospace",
+    "terminal.integrated.fontFamily": "FiraCode Nerd Font Mono Regular",
     "[git-commit]": {
         "editor.rulers": [
             60,
